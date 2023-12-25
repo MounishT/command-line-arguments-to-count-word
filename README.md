@@ -24,6 +24,7 @@ Run the program to determine the number of words in the file created.
 ## PROGRAM:
 Developed by: T MOUNISH
 RegisterNumber: 23002806
+```
 import sys
 count = 0
 with open (sys.argv[1],'r') as f1:
@@ -31,6 +32,7 @@ with open (sys.argv[1],'r') as f1:
         word = line.split()
         count += len (word)
 print("word count in file = ",count)
+```
 ### OUTPUT:
 ![WhatsApp Image 2023-12-25 at 15 41 35_ac4e119f](https://github.com/MounishT/command-line-arguments-to-count-word/assets/138955798/03c47b47-6530-404a-aac5-b85d2c012be6)
 
